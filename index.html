@@ -620,27 +620,39 @@
           <div class="col-md-6">
             <div class="topic-text">Send us a message</div>
             <br />
-            <form action="#">
+            <form action="https://api.web3forms.com/submit" method="POST">
+              <input type="hidden" name="access_key" value="43dfe041-ebf0-46af-b0a8-c4a41ef22710">
+            
               <div class="form-group">
                 <input
                   type="text"
+                  name="name"
                   class="form-control"
                   placeholder="Enter your name"
+                  required
                 />
               </div>
+            
               <div class="form-group">
                 <input
-                  type="text"
+                  type="email"
+                  id="email"
+                  name="email"
                   class="form-control"
                   placeholder="Enter your email"
+                  required
                 />
               </div>
+            
               <div class="form-group">
                 <textarea
+                  name="message"
                   class="form-control"
                   placeholder="Type your message here"
+                  required
                 ></textarea>
               </div>
+            
               <div class="form-group">
                 <button
                   type="submit"
