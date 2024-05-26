@@ -1,2 +1,2 @@
 SRI DEVI DRIVING SCHOOL
-https://deepan-codebuster.github.io/drivingschool/
+https://sridevidrivingschool.vercel.app/
